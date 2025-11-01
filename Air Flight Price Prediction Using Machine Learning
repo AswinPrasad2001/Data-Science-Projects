@@ -1,0 +1,28 @@
+Project Overview
+This project focuses on predicting flight ticket prices using machine learning algorithms such as Random Forest and Gradient Boosting.
+The goal is to help travelers, airlines, and aggregators estimate airfare prices more accurately based on multiple influencing factors like airline, source city, destination, travel duration, class, and days left for departure.
+
+Key Features
+Data Cleaning & Preprocessing — Removed null values, handled outliers, and standardized formats.
+Feature Engineering — Encoded categorical variables (airline, source, class) and scaled numerical features for better model performance.
+Exploratory Data Analysis (EDA) — Identified relationships between variables and price using visualizations.
+Model Training & Evaluation — Implemented and compared Linear Regression, Random Forest, and Gradient Boosting models.
+High Accuracy — Achieved an R² Score of 0.98 and RMSE of ~2735, with Random Forest performing the best.
+Feature Importance Analysis — Identified top factors influencing flight prices.
+
+Tech Stack
+Programming Language: Python
+Libraries & Tools: pandas, NumPy, scikit-learn, Matplotlib, Seaborn
+Algorithms Used: Linear Regression, Random Forest Regressor, Gradient Boosting Regressor
+Environment: Google Colab
+
+Results
+Best Model: Random Forest Regressor
+R² Score: 0.9854
+MAE: 1082.30
+RMSE: 2735.37
+Insight: Airline, flight duration, and class type are the most significant predictors of price.
+
+Conclusion
+This project demonstrates the end-to-end machine learning workflow — from data cleaning and feature engineering to model training, tuning, and evaluation.
+It provides a strong foundation for real-world airfare forecasting systems or travel cost optimization tools.
